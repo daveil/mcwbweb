@@ -1,0 +1,140 @@
+
+#intro{
+	padding-bottom:48.67px;
+}
+#intro video{
+	border-bottom: 3px solid #e7b333;
+}
+#intro h2{
+	font-size:30.16px;
+	font-family:"Georgia";
+	margin-top: 60.33px;
+	padding-bottom: 22.34px;
+	margin-bottom:42px;
+	border-bottom:1px solid #cdcdcd;
+	display:inline-block;
+}
+#intro p{
+	font-size:22.45px;
+	margin:0;
+	margin-bottom:43.42px;
+}
+#intro button{
+	color:#1506c1;
+	border-color:#1506c1;
+	text-transform:uppercase;
+	font-size:14px;
+	border-radius:5px;
+}
+#intro button:hover{
+	background-color:#ffffff;
+}
+
+#exterior p{
+	font-size:16px;
+	margin-top:46.02px;
+	padding-right:60px;
+}
+#building-stats {
+	text-align:center;
+}
+#building-stats ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	height: 400px;
+    margin: 40px 0;
+	margin-bottom:60px;
+	
+}
+#building-stats ul li{
+	display:block;
+	margin-top:15px;
+}
+#building-stats ul li.separator{
+	border-bottom:1px solid #cdcdcd;
+	width:66.6%;
+	margin:0 auto;
+	padding-top:21px;
+}
+#building-stats ul li span{
+	font-size:18.74px;
+}
+#building-stats ul li div{
+	font-family:"Georgia";
+	font-size:53.41px;
+	color:#b48717;
+}
+#building-stats button{
+	text-transform: uppercase;
+	background-color:#031cc0;
+	border-color:#031cc0;
+	padding:12px 27px;
+}
+#team-stats {
+	margin-top:115.56px;
+	margin-bottom:105px;
+}
+#team-stats h2{
+	font-size:27.19px;
+	width: 320px;
+    margin: 0 auto;
+	margin-bottom:66px;
+}
+#team-stats div.team-info span{
+	font-size:18.74px;
+}
+#team-stats div.team-info div{
+	font-family:"Georgia";
+	font-size:53.41px;
+	color:#b48717;
+}
+#team-stats div.plus{
+	font-size:48.98px;
+}
+ul#services {
+	list-style:none;
+	display:block;
+	margin:0;
+	padding:0;
+	text-align:center;
+	padding: 2rem 0;
+	margin-bottom:86.87px;
+}
+ul#services li{
+	display:inline-block;
+	width:33%;
+	height:250px;
+	overflow:hidden;
+}
+ul#services li img{
+	width:100%;
+}
+#equipments p,#dream p{
+	font-size:20px;
+	text-align:center;
+	
+}
+#equipments-stats ul.equipments-list{
+	display:block;
+	margin:0;
+	padding:0;
+}
+#equipments-stats ul.equipments-list li{
+	display:block;
+	font-size:36px;
+	padding:2rem;
+}
+#equipments-stats{
+	margin-top:53px;
+	margin-bottom:53px;
+}
+#equipment-count div{
+	margin-top:6.66rem;
+	font-family:"Georgia";
+	font-size:53.41px;
+	color:#b48717;
+}
+#equipments-stats span{
+	font-size:18.74px;
+}

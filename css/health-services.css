@@ -1,0 +1,133 @@
+#service-banner{
+	margin-bottom:49.28px;
+}
+#specialists-banner{
+	margin-top:49.28px;
+}
+#service-banner>div,#specialists-banner>div{
+	height:660px;
+	width:20%;
+	background:#ccc;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	margin:-2px;
+	padding-top:20%;
+	text-align:center;
+	font-size:50px;
+}
+#service-banner>div:nth-child(2n),#specialists-banner>div:nth-child(2n){
+	background:#eee;
+}
+#services p{
+	font-size:24px;
+}
+#open-247{
+	display:inline-block;
+	padding-bottom:30px;
+	margin-top:37.67px;
+	margin-bottom:25px;
+	border-bottom:1px solid #cdcdcd;
+}
+#open-247 span{
+	font-size:18.72px;
+	letter-spacing:3px;
+}
+#open-247 div{
+	font-size:53.34px;
+	font-family:"Georgia";
+	color:#b48718;
+	margin-top: -5px;
+}
+#services ul{
+	display:block;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#services ul li{
+	font-size:22.3px;
+	padding-bottom:11px;
+}
+#schedules h3{
+	text-align:center;
+	font-size:18.72px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0;
+	margin:0;
+	padding-top:36px;
+	padding-bottom:30px;
+	letter-spacing:4px;
+}
+#schedules table thead tr th{
+	font-weight:normal;
+	font-size:18.72px;
+	border-bottom:1px solid #111010;
+}
+
+#schedules table tbody tr td{
+	font-size:16.81px;
+}
+#schedules table tbody tr td:not(:first-child),#schedules table thead tr th:not(:first-child){
+	text-align:center;
+}
+#schedules table tbody tr:last-child td{
+	border-bottom:1px solid #ddd;
+}
+#schedules table tbody tr td[colspan="3"]{
+	font-size:14px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+#schedules p{
+	font-size:18.72px;
+	text-align:center;
+	letter-spacing:3px;
+}
+#schedules button{
+	text-transform: uppercase;
+	background-color:#031cc0;
+	border-color:#031cc0;
+	padding:12px 27px;
+	margin-top:15px;
+}
+#specialists h3{
+	color:#b48718;
+	text-align:center;
+	font-size:18.72px;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding:0;
+	margin:0;
+	padding-top:36px;
+	padding-bottom:30px;
+	letter-spacing:4px;
+}
+#specialists h4{
+	font-size:29.12px;
+	font-family:"Times New Roman";
+	text-transform:uppercase;
+	text-align:center;
+	margin:0;
+}
+#specialists h4 span,#specialists ul li{
+	font-size:18px;
+}
+#specialists ul{
+	list-style:none;
+	text-align:center;
+	margin:0;
+	padding:0;
+}
+#specialists ul li{
+	padding:2px;
+}
+#specialists ul li.separator{
+	border-top:1px solid #cdcdcd;
+	display:inline-block;
+	width:45%;
+}
+#specialists .specialists-group h4{
+	padding-bottom:36px;
+}
