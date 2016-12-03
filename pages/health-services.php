@@ -1,10 +1,12 @@
 
-<section id="service-banner">
+<section id="service-banner" class="full-banner">
 	<img src="img/lola.png" alt="" class="img-responsive" />
-	<h2>Our focus is on service <br/> of the <b><i>highest quality</i></b>.</h2>
+	
 </section>
 
 <section id="services" class="container text-center">
+	<h2>Our focus is on service <br/> of the <b><i>highest quality</i></b>.</h2>
+	<br/>
 	<div id="open-247">
 		<span>OPEN</span>
 		<div>24/7</div>
@@ -22,7 +24,7 @@
 		<li>X-ray & CT Scan</li>
 	</ul>
 </section>
-<section id="specialists-banner">
+<section id="specialists-banner" class="full-banner">
 	<img src="img/chavez.png" alt="" class="img-responsive" />
 </section>
 <section id="specialists" class="container">

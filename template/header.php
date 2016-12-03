@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
 		<link rel="stylesheet" href="css/mcwb.css?<?php echo md5(rand());?>" />
 		<link rel="stylesheet" href="css/<?php echo $page.'.css?'.md5(rand());?>" />
+		<link rel="stylesheet" href="fonts/stylesheet.css?<?php echo md5(rand());?>" />
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
 		<!--[if lt IE 9]>
 		<script type="text/javascript" src="lib/Bootflat/js/php5shiv.js"></script>

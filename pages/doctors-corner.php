@@ -1,4 +1,4 @@
-<section id="doctor-banner">
+<section id="doctor-banner" class="full-banner">
 	<img src="img/doctora.png" alt="" class="img-responsive" />
 </section>
 <article>

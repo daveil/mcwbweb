@@ -5,7 +5,7 @@
 #intro video{
 }
 #intro p{
-	font-size:22.45px;
+	font-size:18.45px;
 	margin:0;
 	margin-bottom: 13.42px;
 }
@@ -49,7 +49,7 @@
 	font-size:18.74px;
 }
 #building-stats ul li div{
-	font-family:"Georgia";
+	font-family:"EB Garamond 08";
 	font-size:53.41px;
 	color: #c1a22f;
 }
@@ -68,7 +68,7 @@
 	font-size:18.74px;
 }
 #team-stats div.team-info div{
-	font-family:"Georgia";
+	font-family:"EB Garamond 08";
 	font-size:53.41px;
 	color:#b48717;
 	line-height: 55px;
@@ -115,7 +115,7 @@ ul#services li img{
 }
 #equipment-count div{
 	margin-top: 20px;
-	font-family:"Georgia";
+	font-family:"EB Garamond 08";
 	font-size:53.41px;
 	color:#b48717;
 }

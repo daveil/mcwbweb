@@ -1,7 +1,19 @@
+<?php
+	$links = array(
+		'home'=>'About us',
+		'health-services'=>'Health Services',
+		'events'=>'Events',
+		'doctors-corner'=>'Doctor\'s Corner',
+		'freedom-wall'=>'Freedom Wall',
+	);
+?>
+
 <ul>
-	<li class="active"><a href="home">About us</a></li>
-	<li><a href="health-services">Health Services</a></li>
-	<li><a href="#">Events</a></li>
-	<li><a href="doctors-corner">Doctor's Corner</a></li>
-	<li><a href="#">Freedom Wall</a></li>
+	<?php foreach($links as $link=>$lable):?>
+		<li <?php if($page==$link) echo 'class="active"'?>>
+			<a href="<?php echo $link;?>">
+				<?php echo $lable;?>
+			</a>
+		</li>
+	<?php endforeach;?>
 </ul>
