@@ -15,12 +15,26 @@
 		<![endif]-->
 	</head>
 	<body>
-		<header id="header">
-			<img src="img/logo.png" alt="MCWB Logo" />
-			<h1>M<span>edical</span> C<span>enter</span> W<span>estern</span> B<span>atangas</span></h1>
-			<div id="contacts"> +63917.1234.567 / wecare@mcwb.com.ph / @mcwbwevalue</div>
-			<div id="top-nav">
-				<?php include('links.php');?>
+		<header id="header" class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<img  class="pull-left" src="img/logo.png" alt="MCWB Logo" />
+					<h1>M<span>edical</span><br/>
+						C<span>enter</span><br/>
+						W<span>estern</span><br/>
+						B<span>atangas</span>
+					</h1>
+					<div class="clearfix"></div>
+					
+				</div>
+				<div class="col-md-8"> 
+					<nav id="top-nav">
+						<?php include('links.php');?>
+					</nav>
+				</div>
+			</div>
+			<div id="contacts" class="pull-right">
+				+63917.1234.567 / wecare@mcwb.com.ph / @mcwbwevalue
 			</div>
 		</header>
 		

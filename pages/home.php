@@ -1,6 +1,6 @@
 		<section id="intro">
 			<video width="100%" autoplay loop>
-					  <source src="video/banner.mp4" type="video/mp4">
+					  <source src="video/skyline.mp4" type="video/mp4">
 			</video>
 			<div class="container text-center">
 				<h2>The <b><i>first</i></b> tertiary hospital <br/> in Western Batangas.</h2>
