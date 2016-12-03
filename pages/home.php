@@ -1,4 +1,4 @@
-		<section id="intro">
+		<section class="section" id="intro">
 			<video width="100%" autoplay loop>
 					  <source src="video/skyline.mp4" type="video/mp4">
 			</video>
@@ -17,7 +17,7 @@
 				
 			</div>
 		</section>
-		<section class="container">
+		<section class="container section" id="exterior">
 			<div class="row">
 				<div class="col-md-10" id="exterior">
 					<img class="img-responsive" src="img/exterior.gif" alt="MCWB Exterior" />
@@ -27,7 +27,7 @@
 					</p>
 				</div>
 				<div class="col-md-2" id="building-stats">
-					<ul>
+					<ul class="animate">
 						<li>
 							<span>MODERN</span>
 							<div>4</div>
@@ -48,15 +48,15 @@
 				</div>
 			</div>
 		</section>
-		<section>
-			<div class="container text-center" id="team-stats">
+		<section class="section" id="team">
+			<div class="container text-center"  id="team-stats">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
 						<h2>Optimum medical care with the help of our</h2>
 					</div>
 					<div class="team-info col-md-2 col-md-offset-3">
 						<span class="uc">More than</span>
-						<div>60</div>
+						<div class="counter">60</div>
 						<span>Specialist Doctors</span>
 					</div>
 					<div class="plus col-md-2">
@@ -64,7 +64,7 @@
 					</div>
 					<div class="team-info col-md-2">
 						<span class="uc">Almost</span>
-						<div>200</div>
+						<div class="counter">200</div>
 						<span>Support Staff</span>
 					</div>
 				</div>
@@ -77,7 +77,7 @@
 			</ul>
 		
 		</section>
-		<section >
+		<section  class="section" id="equip-dream">
 			<div class="container text-center">
 				<div class="row" id="equipments">
 					<div class="col-md-6 col-md-offset-3">

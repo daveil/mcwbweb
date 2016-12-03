@@ -1,15 +1,17 @@
 
-<section id="service-banner" class="full-banner">
+<section id="service-banner" class="full-banner section">
 	<img src="img/lola.png" alt="" class="img-responsive" />
 	
 </section>
 
-<section id="services" class="container text-center">
+<section id="services" class="container text-center section">
 	<h2>Our focus is on service <br/> of the <b><i>highest quality</i></b>.</h2>
 	<br/>
 	<div id="open-247">
 		<span>OPEN</span>
-		<div>24/7</div>
+		<div>
+		<span class="counter">24</span>/7
+		</div>
 		<span>Health Services</span>
 	</div>
 	<ul>
@@ -27,7 +29,7 @@
 <section id="specialists-banner" class="full-banner">
 	<img src="img/chavez.png" alt="" class="img-responsive" />
 </section>
-<section id="specialists" class="container">
+<section id="specialists" class="container section">
 	<h3>Specialists</h3>
 	<div class="contatiner">
 	<div class="row"> 

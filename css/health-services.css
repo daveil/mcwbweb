@@ -28,16 +28,26 @@
 	margin-bottom: 15px;
 	border-bottom:1px solid #cdcdcd;
 }
-#open-247 span{
+#open-247>span{
 	font-size:18.72px;
 	letter-spacing:3px;
 }
-#open-247 div{
+#open-247 span.counter{
+	display: inline-block;
+	height: 50px;
+	overflow: hidden;
+	margin-top:-10px;
+}
+#open-247>div{
 	font-size:53.34px;
 	font-family:"EB Garamond 08";
 	color:#b48718;
-	line-height: 50px;
 	margin-bottom: 10px;
+	display: block;
+	height:55px;
+	line-height:55px;
+	overflow:hidden;
+	margin: 0 auto;
 }
 #services ul{
 	display:block;

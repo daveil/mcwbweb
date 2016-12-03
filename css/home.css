@@ -65,14 +65,17 @@
 	margin-bottom: 26px;
 	border-bottom: none;
 }
-#team-stats div.team-info span{
+#team-stats div.team-info>span{
 	font-size:18.74px;
 }
-#team-stats div.team-info div{
+#team-stats div.team-info>div{
 	font-family:"EB Garamond 08";
 	font-size:53.41px;
 	color:#b48717;
-	line-height: 55px;
+	line-height: 45px;
+    height: 55px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 #team-stats div.plus{
 	font-size:48.98px;
@@ -122,4 +125,16 @@ ul#services li img{
 }
 #equipments-stats span{
 	font-size:18.74px;
+}
+
+/*
+Animation
+*/
+#building-stats ul{
+	margin-top: 70px;
+	opacity:0;
+}
+section.active #building-stats ul {
+	margin-top: 0px;
+	opacity:1;
 }

@@ -6,6 +6,7 @@ body{
 .uc{
 	text-transform:uppercase !important;
 }
+.animate{ transition: all 3s ease;}
 #header{
 	background-color:#c1a22f;
 }
@@ -202,4 +203,10 @@ div.no-content>p>strong{
 }
 div.no-content>p a,div.no-content>p a:hover,div.no-content>p a:active{
 	color:#343c91;
+}
+.counter>div{
+	position:relative;
+}
+.counter span{
+	display:block;
 }
