@@ -1,6 +1,7 @@
 body{
 	font-family:"Helvetica CE";
 	color:#111010;
+	font-size:18.72px;
 }
 .uc{
 	text-transform:uppercase !important;
@@ -172,6 +173,15 @@ button.btn.btn-secondary{
 	color: #343c91;
 	padding: 12px 27px;
 	margin-top:10px;
+	letter-spacing:2px;
+}
+form.form-vertical{
+	margin-top:20px;
+}
+blockquote{
+	font-family:"EB Garamond 08";
+	font-style:italic;
+	font-size:25px;
 }
 div.no-content{
 	min-height:77vh;
