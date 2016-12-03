@@ -63,6 +63,7 @@
 	width: 320px;
 	margin: 0 auto;
 	margin-bottom: 26px;
+	border-bottom: none;
 }
 #team-stats div.team-info span{
 	font-size:18.74px;
