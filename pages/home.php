@@ -13,7 +13,7 @@
 						</p>
 					</div>
 				</div>
-				<button class="btn btn-default">Learn More</button>
+				<!-- <button class="btn btn-default">Learn More</button>-->
 				
 			</div>
 		</section>
