@@ -6,7 +6,14 @@ body{
 .uc{
 	text-transform:uppercase !important;
 }
-.animate{ transition: all 3s ease;}
+.animate{ transition: all 2s ease;}
+.section img{ transition: all 3s ease;}
+.section img{
+	opacity:0;
+}
+.section.active img{
+	opacity:1;
+}
 #header{
 	background-color:#c1a22f;
 }

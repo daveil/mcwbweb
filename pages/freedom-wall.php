@@ -1,5 +1,5 @@
-<section id="doctor-banner" class="full-banner">
-	<img src="img/nurse.png" alt="" class="img-responsive" />
+<section id="doctor-banner" class="full-banner section">
+	<img src="img/nurse.png" alt="" class="img-responsive animate" />
 </section>
 <section class="container text-center"> 
 	<h2>We <b><i>value</i></b> your feedback.</h2>

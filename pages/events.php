@@ -1,9 +1,9 @@
-<section id="event-banner">
+<section id="event-banner" class="section">
 	
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6">
-			<img src="img/doctors-party-blue.jpg" alt="" class="img-responsive" />
+			<img src="img/doctors-party-blue.jpg" alt="" class="img-responsive animate" />
 			</div>
 			<div class="col-md-6 text-center" id="event-details">
 				<h2>Doctor's Party</h2> 

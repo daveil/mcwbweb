@@ -26,7 +26,7 @@
 		<li>X-ray & CT Scan</li>
 	</ul>
 </section>
-<section id="specialists-banner" class="full-banner">
+<section id="specialists-banner" class="full-banner section">
 	<img src="img/chavez.png" alt="" class="img-responsive" />
 </section>
 <section id="specialists" class="container section">

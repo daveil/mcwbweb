@@ -70,8 +70,8 @@
 				</div>
 			</div>
 			
-			<ul id="services">
-				<li><img src="img/therapy.gif" alt="Therapy" /></li>
+			<ul id="services" class="animate">
+				<li><img src="img/therapy.gif" alt="Therapy"  /></li>
 				<li><img src="img/mammogram.gif" alt="Mammogram" /></li>
 				<li><img src="img/ct-scan.gif" alt="CT Scan" /></li>
 			</ul>
