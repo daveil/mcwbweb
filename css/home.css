@@ -9,6 +9,7 @@
 }
 #intro div.container-fluid div[class*="col-md"]{
 	padding:0;
+	overflow:hidden;
 }
 #intro video{
 	height: 44vh;

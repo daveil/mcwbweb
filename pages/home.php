@@ -23,7 +23,6 @@
 								<li><img src="img/mini/accounting-staff.jpg" alt="Approachable Accounting Staff"  class="img-responsive"/></li>
 								<li><img src="img/mini/pharmacist.jpg" alt="Approachable Pharmacist"  class="img-responsive"/></li>
 								<li><img src="img/mini/pharmacy.jpg" alt="Friendly Pharmacy"  class="img-responsive"/></li>
-								<li><img src="img/mini/it-staff.jpg" alt="Friendly Pharmacy"  class="img-responsive"/></li>
 							</ul>
 							
 						</div>
