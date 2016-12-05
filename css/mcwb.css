@@ -11,6 +11,7 @@ body{
 .section img{
 	opacity:0;
 }
+.animate.fast{ transition: all 1s ease;}
 .section.active img{
 	opacity:1;
 }

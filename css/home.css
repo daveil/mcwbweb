@@ -2,7 +2,51 @@
 #intro{
 	padding-bottom:48.67px;
 }
+#intro div.container-fluid>div.row{
+	height: 44vh;
+	overflow:hidden;
+	background-color: #3967bc;
+}
+#intro div.container-fluid div[class*="col-md"]{
+	padding:0;
+}
 #intro video{
+	height: 44vh;
+}
+
+#tagline-wrapper{
+	width:100%;
+	height: 44vh;
+	text-align:center;
+	color:white;
+	font-family:"Lucida Handwriting"
+}
+#tagline{
+	position: absolute;
+    z-index: 1;
+	height: 100%;
+	background-color: rgba(1, 1, 1, 0.25);
+}
+.display-table{
+    display: table;
+    table-layout: fixed;
+	width: 100%;
+    height: 100%;
+}
+
+.display-cell{
+    display: table-cell;
+    vertical-align: middle;
+    float: none;
+}
+#tagline-wrapper ul{
+	position:absolute;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+#tagline-wrapper ul li{
+	display:block;
 }
 #intro p{
 	font-size:18.45px;

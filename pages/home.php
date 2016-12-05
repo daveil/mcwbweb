@@ -1,20 +1,49 @@
 		<section class="section" id="intro">
-			<video width="100%" autoplay loop>
-					  <source src="video/skyline.mp4" type="video/mp4">
-			</video>
-			<div class="container text-center">
-				<h2>The <b><i>first</i></b> tertiary hospital <br/> in Western Batangas.</h2>
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
-						<p>
-							Medical Center Western Batangas is a modern hospital that 
-							can adequately and competently serve the healthcare needs of people
-							in the western part of the province of Batangas.
-						</p>
+					<div class="col-md-7"> 
+						<video autoplay loop height="100%">
+							  <source src="video/miniloop.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="col-md-5"> 
+						<div id="tagline-wrapper" >
+							<div id="tagline"> 
+								<div class="display-table">
+									<div class="display-cell">
+										<p>"We value your health"</p>
+									</div>
+								</div>
+							</div>
+							<ul class="slideshow animate fast">
+								<li><img src="img/mini/doctora-smile.jpg" alt="Doctor's smile"  class="img-responsive"/></li>
+								<li><img src="img/mini/lolo-checkup.jpg" alt="Lolo Checkup"  class="img-responsive"/></li>
+								<li><img src="img/mini/mother-checkup.jpg" alt="Mother Checkup"  class="img-responsive"/></li>
+								<li><img src="img/mini/lola-checkup.jpg" alt="Lola Checkup"  class="img-responsive"/></li>
+								<li><img src="img/mini/accounting-staff.jpg" alt="Approachable Accounting Staff"  class="img-responsive"/></li>
+								<li><img src="img/mini/pharmacist.jpg" alt="Approachable Pharmacist"  class="img-responsive"/></li>
+								<li><img src="img/mini/pharmacy.jpg" alt="Friendly Pharmacy"  class="img-responsive"/></li>
+								<li><img src="img/mini/it-staff.jpg" alt="Friendly Pharmacy"  class="img-responsive"/></li>
+							</ul>
+							
+						</div>
 					</div>
 				</div>
-				<!-- <button class="btn btn-default">Learn More</button>-->
-				
+			</div>
+			<div class="container text-center">
+				<div class="row">
+					<h2>The <b><i>first</i></b> tertiary hospital <br/> in Western Batangas.</h2>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<p>
+								Medical Center Western Batangas is a modern hospital that 
+								can adequately and competently serve the healthcare needs of people
+								in the western part of the province of Batangas.
+							</p>
+						</div>
+					</div>
+					<!-- <button class="btn btn-default">Learn More</button>-->
+				</div>
 			</div>
 		</section>
 		<section class="container section" id="exterior">
@@ -110,3 +139,4 @@
 				</div>
 			</div>
 		</section>
+		

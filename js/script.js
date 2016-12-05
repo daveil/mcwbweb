@@ -38,5 +38,27 @@ $(document).ready(function(){
 		
 	  },offset:606
 	});
+	$.each($('ul.slideshow'),function(i,o){
+		$(o).append($(o).find('li:first-child').clone());
+		var len = $(o).find('li').length;
+		var height = $(o).find('li:first-child>img').height();
+		$(o).find('li>img').height(height);
+		 $(o).attr('data-count',0);
+		setInterval(function(){
+				var count =   parseInt($(o).attr('data-count'));
+				var offset = (height*(count%len)*-1);
+				$(o).css({'margin-top':offset+'px'});
+				if(count==0)
+					$(o).addClass('animate')
+				count++;
+				if(count==len+1){
+					$(o).css({'margin-top':'0px'});
+					$(o).removeClass('animate');
+					count=0;
+				}
+				 $(o).attr('data-count',count);
+		},4000);
+		//
+	});
 	
 });
