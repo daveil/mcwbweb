@@ -51,7 +51,8 @@
 		<section class="container section" id="exterior">
 			<div class="row">
 				<div class="col-md-10" id="exterior">
-					<img class="img-responsive" src="img/hospital-clean.jpg" alt="MCWB Exterior" />
+					<img class="img-responsive" src="img/hospital-clean.jpg" alt="MCWB Exterior" id="hospital-exterior" />
+					<div id="exterior-frame"></div>
 					<p>Located within are doctors’ clinics, diagnostic and treatment facilities, 
 					and administrative offices. Parking spaces around the hospital 
 					can accommodate more than 60 vehicles.
