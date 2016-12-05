@@ -40,15 +40,7 @@
     vertical-align: middle;
     float: none;
 }
-#tagline-wrapper ul{
-	position:absolute;
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-#tagline-wrapper ul li{
-	display:block;
-}
+
 #intro p{
 	font-size:18.45px;
 	margin:0;

@@ -85,6 +85,15 @@ body{
 #top-nav ul li.active a{
 	color:#ffffff !important;
 }
+ul.slideshow{
+	position:absolute;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul.slideshow li{
+	display:block;
+}
 #social-media{
 	padding-top:50px;
 	padding-bottom:50px;

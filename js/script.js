@@ -42,6 +42,7 @@ $(document).ready(function(){
 		$(o).append($(o).find('li:first-child').clone());
 		var len = $(o).find('li').length;
 		var height = $(o).find('li:first-child>img').height();
+		$(o).parent().css({'height':height+'px','overflow-y':'hidden'});
 		$(o).find('li>img').height(height);
 		 $(o).attr('data-count',0);
 		setInterval(function(){

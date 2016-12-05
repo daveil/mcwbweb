@@ -1,6 +1,7 @@
 
 <section id="service-banner" class="full-banner section">
-	<img src="img/lola.png" alt="" class="img-responsive" />
+	<img src="img/medium/lolo-banner.jpg" alt="" class="img-responsive" width="100%"/>
+	
 	
 </section>
 
