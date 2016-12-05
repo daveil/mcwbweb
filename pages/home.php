@@ -97,21 +97,30 @@
 					</div>
 				</div>
 			</div>
-			
-			<ul id="services" class="animate">
-				<li><img src="img/therapy.gif" alt="Therapy"  /></li>
-				<li><img src="img/mammogram.gif" alt="Mammogram" /></li>
-				<li><img src="img/ct-scan.gif" alt="CT Scan" /></li>
+			<ul class="services animate">
+				<li><img src="img/mini/doctora-checkup.jpg" alt="Therapy"  /></li>
+				<li><img src="img/mini/blood-pressure.jpg" alt="CT Scan" /></li>
+				<li><img src="img/mini/pharmacist.jpg" alt="Mammogram" /></li>
 			</ul>
 		
+			
 		</section>
-		<section  class="section" id="equip-dream">
+		<section  class="section" id="equip-new">
 			<div class="container text-center">
 				<div class="row" id="equipments">
 					<div class="col-md-6 col-md-offset-3">
 						<p>Brand-new medical equipment and caring staff allow us to provide services that are at par with bigger hospitals in Manila.</p>
 					</div>
 				</div>
+				<ul class="services animate">
+					<li><img src="img/mini/therapy.jpg" alt="Therapy"  /></li>
+					<li><img src="img/mini/mammography.jpg" alt="Mammogram" /></li>
+					<li><img src="img/mini/ctscan.jpg" alt="CT Scan" /></li>
+				</ul>
+			</div>
+		</section>
+		<section  class="section" id="equip-count">
+			<div class="container text-center">
 				<div id="equipments-stats" class="row">
 					<div class="col-md-4" >
 						<ul class="equipments-list text-right">
@@ -133,6 +142,11 @@
 						</ul>
 					</div>
 				</div>
+				<ul class="services animate">
+					<li><img src="img/mini/wires.jpg" alt="Therapy"  /></li>
+					<li><img src="img/mini/ultra-sound.jpg" alt="Mammogram" /></li>
+					<li><img src="img/mini/lab.jpg" alt="CT Scan" /></li>
+				</ul>
 				<div id="dream" class="text-center">
 					<p>It is our dream to be one of the best hospitals in the Philippines.</p>
 				</div>

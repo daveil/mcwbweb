@@ -26,7 +26,11 @@
 	position: absolute;
     z-index: 1;
 	height: 100%;
+	
+}
+#tagline-wrapper p{
 	background-color: rgba(1, 1, 1, 0.25);
+	padding: 2rem;
 }
 .display-table{
     display: table;
@@ -117,7 +121,7 @@
 #team-stats div.plus{
 	font-size:48.98px;
 }
-ul#services {
+ul.services {
 	list-style:none;
 	display:block;
 	margin:0;
@@ -126,19 +130,24 @@ ul#services {
 	padding: 2rem 0;
 	margin-bottom: 0px;
 }
-ul#services li{
+ul.services li{
 	display:inline-block;
 	width:33%;
-	height:250px;
 	overflow:hidden;
 }
-ul#services li img{
+ul.services li img{
 	width:100%;
+}
+#equip-new{
+	padding-bottom:0;
 }
 #equipments p,#dream p{
 	font-size:20px;
 	text-align:center;
 	margin-bottom: 20px;
+}
+#dream p{
+	margin-top:40px;
 }
 #equipments-stats ul.equipments-list{
 	display:block;
@@ -148,7 +157,7 @@ ul#services li img{
 #equipments-stats ul.equipments-list li{
 	display:block;
 	font-size:36px;
-	padding: 5px;
+	padding: 0px 5px;
 }
 #equipments-stats{
 	margin-top: 13px;
@@ -175,11 +184,11 @@ section.active #building-stats ul {
 	margin-top: 0px;
 	opacity:1;
 }
-#services img{
+.services img{
 	opacity:0;
 	margin-top:-50px;
 }
-section.active  #services img{
+section.active  .services img{
 	opacity:1;
 	margin-top:0px;
 }

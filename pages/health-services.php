@@ -28,7 +28,7 @@
 	</ul>
 </section>
 <section id="specialists-banner" class="full-banner section">
-	<img src="img/chavez.png" alt="" class="img-responsive" />
+	<img src="img/medium/doctor-consultation-banner.jpg" alt="" class="img-responsive"  width="100%"/>
 </section>
 <section id="specialists" class="container section">
 	<h3>Specialists</h3>

@@ -1,5 +1,5 @@
 <section id="doctor-banner" class="full-banner section">
-	<img src="img/doctora.png" alt="" class="img-responsive animate" />
+	<img src="img/medium/doctora-stethoscope.jpg" alt="" class="img-responsive" width="100%" />
 </section>
 <article>
 	<div class="container">
