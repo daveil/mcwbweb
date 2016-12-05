@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<!-- Sets initial viewport load and disables zooming  -->
 		<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="icon" type="image/png" href="img/favicon.png">
 		<!-- site css -->
 		<link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css" />
 		<link rel="stylesheet" href="css/mcwb.css?<?php echo md5(rand());?>" />
@@ -14,6 +15,7 @@
 		<script type="text/javascript" src="lib/Bootflat/js/php5shiv.js"></script>
 		<script type="text/javascript" src="lib/Bootflat/js/respond.min.js"></script>
 		<![endif]-->
+		<title>Medical Center Western Batangas <?php echo ' - '.($page=='home'?'Homepage':$slug);?></title>
 	</head>
 	<body>
 		<header id="header" class="container-fluid">
