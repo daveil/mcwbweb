@@ -3,7 +3,6 @@
 	padding-bottom:48.67px;
 }
 #intro div.container-fluid>div.row{
-	height: 44vh;
 	overflow:hidden;
 	background-color: #3967bc;
 }
@@ -15,9 +14,11 @@
 	height: 44vh;
 }
 
+#intro .slideshow img{
+	width:100%;
+}
 #tagline-wrapper{
 	width:100%;
-	height: 44vh;
 	text-align:center;
 	color:white;
 	font-family:"Lucida Handwriting"

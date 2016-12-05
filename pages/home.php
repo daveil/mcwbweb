@@ -1,12 +1,15 @@
 		<section class="section" id="intro">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-7"> 
+					<div class="col-md-6"> 
+						<!--
 						<video autoplay loop height="100%">
 							  <source src="video/miniloop.mp4" type="video/mp4">
 						</video>
+						-->
+						<img class="img-responsive exterior animate fast" src="img/hospital-clean.jpg" alt="MCWB Exterior"/>
 					</div>
-					<div class="col-md-5"> 
+					<div class="col-md-6"> 
 						<div id="tagline-wrapper" >
 							<div id="tagline"> 
 								<div class="display-table">
@@ -16,13 +19,13 @@
 								</div>
 							</div>
 							<ul class="slideshow animate fast">
-								<li><img src="img/mini/doctora-smile.jpg" alt="Doctor's smile"  class="img-responsive"/></li>
-								<li><img src="img/mini/lolo-checkup.jpg" alt="Lolo Checkup"  class="img-responsive"/></li>
-								<li><img src="img/mini/mother-checkup.jpg" alt="Mother Checkup"  class="img-responsive"/></li>
-								<li><img src="img/mini/lola-checkup.jpg" alt="Lola Checkup"  class="img-responsive"/></li>
-								<li><img src="img/mini/accounting-staff.jpg" alt="Approachable Accounting Staff"  class="img-responsive"/></li>
-								<li><img src="img/mini/pharmacist.jpg" alt="Approachable Pharmacist"  class="img-responsive"/></li>
-								<li><img src="img/mini/pharmacy.jpg" alt="Friendly Pharmacy"  class="img-responsive"/></li>
+								<li><img src="img/mini/doctora-smile.jpg" alt="Doctor's smile"  /></li>
+								<li><img src="img/mini/lolo-checkup.jpg" alt="Lolo Checkup"  /></li>
+								<li><img src="img/mini/mother-checkup.jpg" alt="Mother Checkup"  /></li>
+								<li><img src="img/mini/lola-checkup.jpg" alt="Lola Checkup"  /></li>
+								<li><img src="img/mini/accounting-staff.jpg" alt="Approachable Accounting Staff"  /></li>
+								<li><img src="img/mini/pharmacist.jpg" alt="Approachable Pharmacist"  /></li>
+								<li><img src="img/mini/pharmacy.jpg" alt="Friendly Pharmacy"  /></li>
 							</ul>
 							
 						</div>
@@ -48,10 +51,10 @@
 		<section class="container section" id="exterior">
 			<div class="row">
 				<div class="col-md-10" id="exterior">
-					<img class="img-responsive" src="img/exterior.gif" alt="MCWB Exterior" />
+					<img class="img-responsive" src="img/hospital-clean.jpg" alt="MCWB Exterior" />
 					<p>Located within are doctors’ clinics, diagnostic and treatment facilities, 
 					and administrative offices. Parking spaces around the hospital 
-					can accommodate more th an 60 vehicles.
+					can accommodate more than 60 vehicles.
 					</p>
 				</div>
 				<div class="col-md-2" id="building-stats">

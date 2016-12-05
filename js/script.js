@@ -38,11 +38,16 @@ $(document).ready(function(){
 		
 	  },offset:606
 	});
+	var exterior = $('#intro img.exterior');
+	if(exterior){
+		var height = exterior.height();
+		console.log(height);
+		$('#tagline-wrapper').css({'height':height+'px','overflow-y':'hidden'});
+	}
 	$.each($('ul.slideshow'),function(i,o){
 		$(o).append($(o).find('li:first-child').clone());
 		var len = $(o).find('li').length;
-		var height = $(o).find('li:first-child>img').height();
-		$(o).parent().css({'height':height+'px','overflow-y':'hidden'});
+		var height = $(o).find('li:first-child>img').height()+1;
 		$(o).find('li>img').height(height);
 		 $(o).attr('data-count',0);
 		setInterval(function(){
