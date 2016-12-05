@@ -1,6 +1,6 @@
 <?php
 	$links = array(
-		'home'=>'About us',
+		'home'=>'Home',
 		'health-services'=>'Health Services',
 		'events'=>'Events',
 		'doctors-corner'=>'Doctor\'s Corner',
