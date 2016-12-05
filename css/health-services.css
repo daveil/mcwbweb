@@ -80,6 +80,14 @@
 
 #schedules table tbody tr td{
 	font-size:16.81px;
+	vertical-align:middle;
+}
+#schedules table tbody tr td small{
+	border: 1px solid #111010;
+	color:#111010;
+	padding:2px 4px;
+	border-radius:5px;
+	font-size:10px;
 }
 #schedules table tbody tr td:not(:first-child),#schedules table thead tr th:not(:first-child){
 	text-align:center;
