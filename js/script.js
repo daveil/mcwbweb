@@ -88,6 +88,7 @@ $(document).ready(function(){
 		var id = this.element.id;
 		if(direction=='up'){
 			$('.section').removeClass('active');
+			$('#intro').addClass('active');
 			$.each($('.counter .animate'),function(i,o){
 				var offset = $(o).data('offset');
 				$(o).css({top:offset+'px'});
