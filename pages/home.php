@@ -53,7 +53,7 @@
 			</div>
 			<div id="exterior-frame" class="animate fast">
 			</div>
-		<video class='hide' width='100%' id="video-preload"><source src='video/mwcb-720.mp4' type='video/mp4'></video>
+		<video class='hide' id="video-preload"><source src='video/mwcb-720.mp4' type='video/mp4'></video>
 		<section class="container section" id="exterior">
 			<div class="row">
 				<div class="col-md-10" id="exterior">
