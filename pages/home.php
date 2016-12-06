@@ -48,11 +48,17 @@
 				</div>
 			</div>
 		</section>
+		<div id="blind" class="animate">
+				<button class="btn btn-default">&times;</button>
+			</div>
+			<div id="exterior-frame" class="animate fast">
+			</div>
+		<video class='hide' width='100%' id="video-preload"><source src='video/mwcb-720.mp4' type='video/mp4'></video>
 		<section class="container section" id="exterior">
 			<div class="row">
 				<div class="col-md-10" id="exterior">
 					<img class="img-responsive" src="img/hospital-clean.jpg" alt="MCWB Exterior" id="hospital-exterior" />
-					<div id="exterior-frame"></div>
+					
 					<p>Located within are doctors’ clinics, diagnostic and treatment facilities, 
 					and administrative offices. Parking spaces around the hospital 
 					can accommodate more than 60 vehicles.
@@ -76,7 +82,7 @@
 							<span>beds</span>
 						</li>
 					</ul>
-					<button class="btn btn-primary btn-xs">Take a tour</button>
+					<button class="btn btn-primary btn-xs" id="take-a-tour" >Take a tour</button>
 				</div>
 			</div>
 		</section>

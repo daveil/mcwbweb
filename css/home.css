@@ -173,7 +173,35 @@ ul.services li img{
 #equipments-stats span{
 	font-size:18.74px;
 }
-
+#exterior-frame{
+	opacity:0;
+}
+#exterior-frame video{
+	position: fixed;
+    top: 8%;
+    left: 12%;
+    width: 80%;
+    margin: 0 auto;
+	opacity:0;
+}
+#blind{
+	position: fixed;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+	display:none;
+	padding:10px 20px;
+	
+}
+#blind button{
+	background:none;
+	color:#fff;
+	border-color:#fff;
+	float:right;
+}
 /*
 Animation
 */
