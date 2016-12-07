@@ -5,7 +5,7 @@
 	<h2>We <b><i>value</i></b> your feedback.</h2>
 	<p>Help us improve our services by giving suggestions and comments.</p>
 	<p>Email us at <i>mwcb.marketing@gmail.com</i>.</p>
-	<?php if(false):?>
+	<?php if(true):?>
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
 			<form class="form-vertical text-left">

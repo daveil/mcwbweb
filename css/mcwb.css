@@ -59,14 +59,17 @@ body{
 
 #top-nav{
 	/* background-color:#f7f7f7; */
-	margin-top:10px;
-	height: 120px;
+	margin-top: 90px;
+	height: 40px;
 	display: table;
 }
 #top-nav a{
 	color: white;
 	font-size: 14px;
 	text-transform:uppercase;
+}
+#top-nav ul li:first-child {
+    border-left: none;
 }
 #top-nav ul li a:hover,#top-nav ul li a:active {
     text-decoration: none !important;
@@ -82,10 +85,11 @@ body{
 	vertical-align: middle;
 }
 #top-nav ul li{
-	padding: 5px 20px;
+	padding: 1px 20px;
 	display:inline-block;
 	text-transform:uppercase;
 	color:#282727;
+	border-left: 1px solid white;
 }
 #top-nav ul li.active{
 	
@@ -257,6 +261,8 @@ div.no-content>p a,div.no-content>p a:hover,div.no-content>p a:active{
 	}
 	#top-nav{
 		margin:0 auto;
+		height: 50px;
+		padding-top: 13px;
 	}
 	#equipments-stats ul.equipments-list li{
 		text-align:center !important;

@@ -159,8 +159,12 @@ ul.services li img{
 }
 #equipments-stats ul.equipments-list li{
 	display:block;
-	font-size:36px;
+	font-size:32px;
 	padding: 0px 5px;
+}
+#equipments-stats ul.equipments-list.text-center{
+	padding-top:10px;
+	font-size:29px;
 }
 #equipments-stats{
 	margin-top: 13px;
