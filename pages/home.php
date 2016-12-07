@@ -135,7 +135,7 @@
 					<div class="col-md-4 " >
 						<ul class="equipments-list text-right">
 							<li>ECG</li>
-							<li>CT SCAN</li>
+							<li>CT-SCAN</li>
 							<li>2D ECHO</li>
 							<li>MAMMOGRAM</li>
 						</ul>
@@ -150,12 +150,12 @@
 							<li>EEG</li>
 							<li>X-RAY</li>
 							<li>SPIROMETER</li>
-							<li>24 HOUR HOLTER</li>
+							<li>24-HOUR HOLTER</li>
 						</ul>
 					</div>
 					<div class="col-md-12">
 						<ul class="equipments-list text-center">
-							<li>ENDOSKOPE THERMOFLATOR</li>
+							<li>ENDOSCOPE THERMOFLATOR</li>
 						</ul>
 					</div>
 				</div>

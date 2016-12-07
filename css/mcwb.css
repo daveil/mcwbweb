@@ -61,7 +61,7 @@ body{
 	/* background-color:#f7f7f7; */
 	margin-top: 90px;
 	height: 40px;
-	display: table;
+	
 }
 #top-nav a{
 	color: white;
@@ -80,8 +80,6 @@ body{
 	list-style:none;
 	padding:0;
 	margin:0;
-	text-align:center;
-	display: table-cell;
 	vertical-align: middle;
 }
 #top-nav ul li{
