@@ -26,12 +26,14 @@
 #tagline{
 	position: absolute;
     z-index: 1;
-	height: 100%;
-	
+	height: 100%;	
 }
+
 #tagline-wrapper p{
-	background-color: rgba(1, 1, 1, 0.25);
+	background-color: rgba(1, 1, 1, 0.5);
 	padding: 2rem;
+	margin-bottom:0 !important;
+	font-size:20px !important;
 }
 .display-table{
     display: table;
@@ -42,7 +44,7 @@
 
 .display-cell{
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
     float: none;
 }
 

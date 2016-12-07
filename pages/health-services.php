@@ -139,9 +139,9 @@
 					</tr>
 				</tbody>
 			</table>
-			<p>To reserve an appointment or check availability.</p>
+			<p>You can book appointment and check availability soon.</p>
 			<div id="book-wrapper" class="text-center">
-				<button class="btn btn-primary">Book Online</button>
+				<button class="btn btn-default btn-secondary">Early 2017</button>
 			</div>
 		</div>
 	</div>

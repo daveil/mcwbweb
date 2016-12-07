@@ -23,7 +23,8 @@ body{
     filter: blur(5px);
 }
 #header{
-	background-color:#c1a22f;
+	background:url('../img/gold-bands.png') 0px -300px	 no-repeat;
+	background-color:#b68f07;
 }
 #header img{
 	width: 110px;
@@ -55,6 +56,7 @@ body{
 	margin-top:15px;
 	margin-right:15px;
 }
+
 #top-nav{
 	/* background-color:#f7f7f7; */
 	margin-top:10px;
@@ -87,7 +89,7 @@ body{
 }
 #top-nav ul li.active{
 	
-	background-color:#90781c;
+	background-color:rgba(144, 120, 28, 0.44);
 }
 #top-nav ul li.active a{
 	color:#ffffff !important;
@@ -234,3 +236,41 @@ div.no-content>p a,div.no-content>p a:hover,div.no-content>p a:active{
 .counter span{
 	display:block;
 }
+@media (max-width: 768px ) { 
+	#contacts{
+		position:inherit;
+		margin-top:0px;
+		font-size:1.4rem;
+		text-align:center;
+	}
+	#contacts br{display:none;}
+	#header {
+		text-align:center;
+	}
+	#header h1{
+		text-align:center;
+	}
+	#header img{
+		vertical-align:top;
+		margin-top:25px;
+		float:none !important;
+	}
+	#top-nav{
+		margin:0 auto;
+	}
+	#equipments-stats ul.equipments-list li{
+		text-align:center !important;
+	}
+	#equipment-count{
+		margin-bottom:20px;
+	}
+	#equipment-count div{
+		margin-top:10px !important;
+	}
+	section{
+		padding-bottom:20px;
+	}
+	section.full-banner{
+		height:auto;
+	}
+ }

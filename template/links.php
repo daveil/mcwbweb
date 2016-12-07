@@ -3,7 +3,7 @@
 		'home'=>'Home',
 		'health-services'=>'Health Services',
 		'events'=>'Events',
-		'doctors-corner'=>'Doctor\'s Corner',
+		//'doctors-corner'=>'Doctor\'s Corner',
 		'freedom-wall'=>'Freedom Wall',
 	);
 ?>

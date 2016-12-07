@@ -7,7 +7,7 @@
 							  <source src="video/miniloop.mp4" type="video/mp4">
 						</video>
 						-->
-						<img class="img-responsive exterior animate fast" src="img/hospital-clean.jpg" alt="MCWB Exterior"/>
+						<img class="img-responsive exterior animate fast" src="img/hospital-clean.jpg" width="100%" alt="MCWB Exterior"/>
 					</div>
 					<div class="col-md-6"> 
 						<div id="tagline-wrapper" >
@@ -132,23 +132,30 @@
 		<section  class="section" id="equip-count">
 			<div class="container text-center">
 				<div id="equipments-stats" class="row">
-					<div class="col-md-4" >
+					<div class="col-md-4 " >
 						<ul class="equipments-list text-right">
+							<li>ECG</li>
 							<li>CT SCAN</li>
-							<li>MRI</li>
-							<li>X-RAY</li>
+							<li>2D ECHO</li>
+							<li>MAMMOGRAM</li>
 						</ul>
 					</div>
 					<div id="equipment-count" class="col-md-4" >
-						<div>6+</div>
+						<div>9</div>
 						<span>brand new<br/></span>
 						<span>medical equipments</span>
 					</div>
 					<div class="col-md-4">
 						<ul class="equipments-list text-left">
-							<li>MAMMO</li>
-							<li>ENDOSCOPY</li>
+							<li>EEG</li>
 							<li>X-RAY</li>
+							<li>SPIROMETER</li>
+							<li>24 HOUR HOLTER</li>
+						</ul>
+					</div>
+					<div class="col-md-12">
+						<ul class="equipments-list text-center">
+							<li>ENDOSKOPE THERMOFLATOR</li>
 						</ul>
 					</div>
 				</div>

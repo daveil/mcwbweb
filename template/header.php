@@ -31,14 +31,15 @@
 					
 				</div>
 				<div class="col-md-8"> 
+				<div id="contacts" class="pull-right text-right">
+				<b>PH:</b> +63.916.2888.380 / <b>EM:</b> mcwb.marketing@gmail.com<br /> <b>FB:</b> medicalcenterwesternbatangas / <b>IG</b>: mcwbwevalue
+			</div>
 					<nav id="top-nav">
 						<?php include('links.php');?>
 					</nav>
 				</div>
 			</div>
-			<div id="contacts" class="pull-right">
-				+63917.1234.567 / wecare@mcwb.com.ph / @mcwbwevalue
-			</div>
+			
 		</header>
 		
 
