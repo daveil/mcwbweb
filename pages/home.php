@@ -1,7 +1,7 @@
 		<section class="section" id="intro">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6"> 
+					<div class="col-md-7"> 
 						<!--
 						<video autoplay loop height="100%">
 							  <source src="video/miniloop.mp4" type="video/mp4">
@@ -9,7 +9,7 @@
 						-->
 						<img class="img-responsive exterior animate fast" src="img/hospital-clean.jpg" width="100%" alt="MCWB Exterior"/>
 					</div>
-					<div class="col-md-6"> 
+					<div class="col-md-5"> 
 						<div id="tagline-wrapper" >
 							<div id="tagline"> 
 								<div class="display-table">
@@ -18,14 +18,17 @@
 									</div>
 								</div>
 							</div>
-							<ul class="slideshow animate fast">
+							<img src="img/mini/doctor-consult.png" id="side-pic" alt="Doctor's smile"  />
+							<ul class="hide animate fast">
 								<li><img src="img/mini/doctora-smile.jpg" alt="Doctor's smile"  /></li>
+								<!--
 								<li><img src="img/mini/lolo-checkup.jpg" alt="Lolo Checkup"  /></li>
 								<li><img src="img/mini/mother-checkup.jpg" alt="Mother Checkup"  /></li>
 								<li><img src="img/mini/lola-checkup.jpg" alt="Lola Checkup"  /></li>
 								<li><img src="img/mini/accounting-staff.jpg" alt="Approachable Accounting Staff"  /></li>
 								<li><img src="img/mini/pharmacist.jpg" alt="Approachable Pharmacist"  /></li>
 								<li><img src="img/mini/pharmacy.jpg" alt="Friendly Pharmacy"  /></li>
+								-->
 							</ul>
 							
 						</div>

@@ -114,7 +114,8 @@ $(document).ready(function(){
 	var exterior = $('#intro img.exterior');
 		if(exterior){
 			var height = exterior.height();
-			$('#tagline-wrapper').css({'height':height+'px','overflow-y':'hidden'});
+			$('#tagline-wrapper').css({'height':height+'px','overflow':'hidden'});
+			$('#side-pic').css({'height':height+'px'});
 		}
 	$.each($('ul.slideshow'),function(i,o){
 		
