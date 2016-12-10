@@ -22,7 +22,7 @@
 		<li>Delivery Room</li>
 		<li>Operating Room</li>
 		<li>Laboratory</li>
-		<li>Normal & Pathologic Nurses</li>
+		<li>Normal & Pathologic Nurseries</li>
 		<li>Pharmacy</li>
 		<li>Radiology Department</li>
 		<li>X-ray & CT Scan</li>
