@@ -102,9 +102,9 @@
 				</div>
 			</div>
 			<ul class="services animate">
-				<li><img src="img/mini/doctora-checkup.jpg" alt="Therapy"  /></li>
-				<li><img src="img/mini/blood-pressure.jpg" alt="CT Scan" /></li>
-				<li><img src="img/mini/pharmacist.jpg" alt="Mammogram" /></li>
+				<li><img src="img/mini/room.jpg" alt="Therapy"  /></li>
+				<li><img src="img/mini/blood-extraction.jpg" alt="CT Scan" /></li>
+				<li><img src="img/mini/pharmacy-shelf.jpg" alt="Mammogram" /></li>
 			</ul>
 		
 			
@@ -117,9 +117,9 @@
 					</div>
 				</div>
 				<ul class="services animate">
-					<li><img src="img/mini/therapy.jpg" alt="Therapy"  /></li>
-					<li><img src="img/mini/mammography.jpg" alt="Mammogram" /></li>
-					<li><img src="img/mini/ctscan.jpg" alt="CT Scan" /></li>
+					<li><img src="img/mini/mammo.jpg" alt="Mammography" /></li>
+					<li><img src="img/mini/rehab.jpg" alt="Rehabilitation"  /></li>
+					<li><img src="img/mini/ct-scan.jpg" alt="CT Scan" /></li>
 				</ul>
 			</div>
 		</section>
@@ -154,9 +154,9 @@
 					</div>
 				</div>
 				<ul class="services animate">
-					<li><img src="img/mini/wires.jpg" alt="Therapy"  /></li>
-					<li><img src="img/mini/ultra-sound.jpg" alt="Mammogram" /></li>
-					<li><img src="img/mini/lab.jpg" alt="CT Scan" /></li>
+					<li><img src="img/mini/ecg.jpg" alt="ECG"  /></li>
+					<li><img src="img/mini/lab-test.jpg" alt="Labortatory" /></li>
+					<li><img src="img/mini/ultra-sound-bed.jpg" alt="Ultrasount" /></li>
 				</ul>
 				<div id="dream" class="text-center">
 					<p>It is our dream to be one of the best hospitals in the Philippines.</p>
