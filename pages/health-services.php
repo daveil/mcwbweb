@@ -1,6 +1,6 @@
 
 <section id="service-banner" class="full-banner section">
-	<img src="img/medium/lolo-banner.jpg" alt="" class="img-responsive" width="100%"/>
+	<img src="img/medium/patient-banner.jpg" alt="" class="img-responsive" width="100%"/>
 	
 	
 </section>
@@ -29,7 +29,7 @@
 	</ul>
 </section>
 <section id="schedule-banner" class="full-banner section">
-	<img src="img/medium/patient-banner.jpg" alt="" class="img-responsive"  width="100%"/>
+	<img src="img/medium/doctor-consultation-banner.jpg" alt="" class="img-responsive"  width="100%"/>
 </section>
 <section id="schedules" class="container">
 	<h3>Schedules</h3>
