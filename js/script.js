@@ -87,11 +87,11 @@ $(document).ready(function(){
 	  handler: function(direction) {
 		var id = this.element.id;
 		if(direction=='up'){
-			$('.section').removeClass('active');
+			//$('.section').removeClass('active');
 			$('#intro').addClass('active');
 			$.each($('.counter .animate'),function(i,o){
 				var offset = $(o).data('offset');
-				$(o).css({top:offset+'px'});
+				//$(o).css({top:offset+'px'});
 			});
 			
 		}
@@ -114,8 +114,8 @@ $(document).ready(function(){
 	var exterior = $('#intro img.exterior');
 		if(exterior){
 			var height = exterior.height();
-			$('#tagline-wrapper').css({'height':height+'px','overflow':'hidden'});
-			$('#side-pic').css({'height':height+'px'});
+			//$('#tagline-wrapper').css({'height':height+'px','overflow':'hidden'});
+			//$('#side-pic').css({'height':height+'px'});
 		}
 	$.each($('ul.slideshow'),function(i,o){
 		
