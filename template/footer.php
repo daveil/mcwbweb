@@ -25,6 +25,6 @@
 	<script type="text/javascript" src="lib/holderjs/holder.min.js"></script>
 	<script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/script.js<?php echo '?a='.substr(md5(rand()),0,3)?>"></script>
 	</body>
 </html>
