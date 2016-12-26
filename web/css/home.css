@@ -1,0 +1,229 @@
+
+#intro{
+	padding-bottom:48.67px;
+}
+#intro div.container-fluid>div.row{
+	overflow:hidden;
+	background-color: #3967bc;
+}
+#intro div.container-fluid div[class*="col-md"]{
+	padding:0;
+	overflow:hidden;
+}
+#intro video{
+	height: 44vh;
+}
+
+#intro .slideshow img{
+	width:100%;
+}
+#tagline-wrapper{
+	width:100%;
+	text-align:center;
+	color:white;
+	font-family:"Lucida Handwriting"
+}
+#tagline{
+	position: absolute;
+    z-index: 1;
+	height: 100%;	
+}
+
+#tagline-wrapper p{
+	background-color: rgba(1, 1, 1, 0.5);
+	padding: 2rem;
+	margin-bottom:0 !important;
+	font-size:20px !important;
+}
+.display-table{
+    display: table;
+    table-layout: fixed;
+	width: 100%;
+    height: 100%;
+}
+
+.display-cell{
+    display: table-cell;
+    vertical-align: bottom;
+    float: none;
+}
+
+#intro p{
+	font-size:18.45px;
+	margin:0;
+	margin-bottom: 13.42px;
+}
+#intro button{
+	color: #1421a7;
+	border-color: #1421a7;
+	text-transform:uppercase;
+	font-size:14px;
+	border-radius:5px;
+}
+#intro button:hover{
+	background-color:#ffffff;
+}
+
+#exterior p{
+	font-size: 12px;
+	margin-top: 10px;
+	padding-right:60px;
+}
+#building-stats {
+	text-align:center;
+}
+#building-stats ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	height: 400px;
+	margin: 0;
+	margin-bottom: 20px;
+}
+#building-stats ul li{
+	display:block;
+}
+#building-stats ul li.separator{
+	border-bottom:1px solid #cdcdcd;
+	width:66.6%;
+	margin:0 auto;
+	padding-top: 10px;
+}
+#building-stats ul li span{
+	font-size:18.74px;
+}
+#building-stats ul li div{
+	font-family:"EB Garamond 08";
+	font-size:53.41px;
+	color: #c1a22f;
+}
+
+#team-stats {
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+#team-stats h2{
+	font-size:27.19px;
+	width: 320px;
+	margin: 0 auto;
+	margin-bottom: 26px;
+	border-bottom: none;
+}
+#team-stats div.team-info>span{
+	font-size:18.74px;
+}
+#team-stats div.team-info>div{
+	font-family:"EB Garamond 08";
+	font-size:53.41px;
+	color:#b48717;
+	line-height: 45px;
+    height: 55px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#team-stats div.plus{
+	font-size:48.98px;
+}
+ul.services {
+	list-style:none;
+	display:block;
+	margin:0;
+	padding:0;
+	text-align:center;
+	padding: 2rem 0;
+	margin-bottom: 0px;
+}
+ul.services li{
+	display:inline-block;
+	width:33%;
+	overflow:hidden;
+}
+ul.services li img{
+	width:100%;
+}
+#equip-new{
+	padding-bottom:0;
+}
+#equipments p,#dream p{
+	font-size:20px;
+	text-align:center;
+	margin-bottom: 20px;
+}
+#dream p{
+	margin-top:40px;
+}
+#equipments-stats ul.equipments-list{
+	display:block;
+	margin:0;
+	padding:0;
+}
+#equipments-stats ul.equipments-list li{
+	display:block;
+	font-size:32px;
+	padding: 0px 5px;
+}
+#equipments-stats ul.equipments-list.text-center{
+	padding-top:10px;
+	font-size:29px;
+}
+#equipments-stats{
+	margin-top: 13px;
+	margin-bottom: 13px;
+}
+#equipment-count div{
+	margin-top: 20px;
+	font-family:"EB Garamond 08";
+	font-size:53.41px;
+	color:#b48717;
+}
+#equipments-stats span{
+	font-size:18.74px;
+}
+#exterior-frame{
+	opacity:0;
+}
+#exterior-frame video{
+	position: fixed;
+    top: 8%;
+    left: 12%;
+    width: 80%;
+    margin: 0 auto;
+	opacity:0;
+}
+#blind{
+	position: fixed;
+    z-index: 3;
+    background-color: rgba(0,0,0,0.8);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left:0;
+	display:none;
+	padding:10px 20px;
+	
+}
+#blind button{
+	background:none;
+	color:#fff;
+	border-color:#fff;
+	float:right;
+}
+/*
+Animation
+*/
+#building-stats ul{
+	margin-top: 70px;
+	opacity:0;
+}
+section.active #building-stats ul {
+	margin-top: 0px;
+	opacity:1;
+}
+.services img{
+	opacity:0;
+	margin-top:-50px;
+}
+section.active  .services img{
+	opacity:1;
+	margin-top:0px;
+}
