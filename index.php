@@ -1,18 +1,17 @@
-<?php 
-$page = 'home';
-if(isset($_GET['url']))
-	$page = $_GET['url'];
-$slug = array();
-foreach(explode('-',$page) as $token){
-	array_push($slug,ucfirst($token));
-}
-$slug = implode(' ',$slug);
-$file = 'pages/'.$page.'.php';
-include('template/header.php');
-if(file_exists($file))
-	include($file);
-else
-	include('pages/not-found.php');
+<?php
+/**
+ * Front to the WordPress application. This file doesn't do anything, but loads
+ * wp-blog-header.php which does and tells WordPress to load the theme.
+ *
+ * @package WordPress
+ */
 
-include('template/footer.php');
-?>
+/**
+ * Tells WordPress to load the WordPress theme and output it.
+ *
+ * @var bool
+ */
+define('WP_USE_THEMES', true);
+
+/** Loads the WordPress Environment and Template */
+require( dirname( __FILE__ ) . '/wp-blog-header.php' );
