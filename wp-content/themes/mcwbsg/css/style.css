@@ -1,0 +1,117 @@
+#header{
+	margin-bottom:1rem;
+}
+#logo{
+	display:inline-block;
+	width:100px;
+	height:100px;
+	background:#ccc;
+	margin-top: 0rem;
+}
+#company {
+	display:inline-block;
+}
+#brand h1{
+	font-size:2.5rem;
+	text-transform:uppercase;
+	color:#2863b3;
+	font-weight:600;
+	border-bottom: 1px solid #f6bb43;
+	display:inline-block;
+	padding:0 0.25rem;
+	margin-top: 0rem;
+	margin-bottom: 0.4rem;
+}
+#brand p{
+	color:#f6bb43;
+	font-weight:600;
+	text-transform:uppercase;
+}
+#contact-info div{
+	font-size:2.5rem;
+}
+#main-nav{
+	padding:0;
+}
+#main-nav .navbar{
+	border-radius:0;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;	
+}
+.form-control:focus{
+	border-color:#2863b3;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color:#2863b3;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-text{
+	color:#434a54;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	color:#333;
+	background-color: #e7e7e7;
+}
+#doctors-corner .jumbotron-photo{
+	height:224px;
+	overflow:hidden;
+} 
+#events .thumbnail .date-thumb{
+	text-align:center;
+	background-color:#f5efef;
+	color:#2863b3;
+	width:150px;
+	height:150px;
+	margin:0 auto;
+	padding:1rem;
+	font-weight:bold;
+}
+#events .thumbnail .date-thumb .month{
+	font-size:3rem;
+}
+#events .thumbnail .date-thumb .date{
+	font-size:6rem;
+}
+#events .list-group{
+	margin-top:-10px;
+}
+.badge-primary, .label-primary{
+	background-color:#2863b3;
+	border-color:#2863b3;
+}
+#connect{
+	border-top:3px solid #f6bb43;
+}
+#connect .thumb{
+	margin-bottom:1rem;
+}
+a.list-group-item.active, a.list-group-item.active:focus, a.list-group-item.active:hover{
+	background-color:#2863b3;
+	border-color:#2863b3;
+}
+#content .title h3{
+	margin-top:0;
+}
+#content .share-button button{
+	font-size:1rem;
+	text-align:center;
+}
+#content .title{
+	padding-top:30px;
+	border-bottom:3px solid #f6bb43;
+}
+#content .content-thumb{
+	margin-top:1rem;
+}
+#content .content{
+	margin-bottom:2rem;
+	
+}
+#footer-logo {
+	width:auto;
+	color:white;
+}
+#footer-logo p{
+	text-transform:uppercase;
+}

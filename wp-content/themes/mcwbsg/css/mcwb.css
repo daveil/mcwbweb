@@ -1,0 +1,285 @@
+html,body{
+	margin:0 !important;
+	padding:0 !important;
+}
+body{
+	font-family:"Helvetica CE";
+	color:#111010;
+	font-size:18.72px;
+}
+.fullscreen{
+	overflow:hidden;
+}
+.uc{
+	text-transform:uppercase !important;
+}
+.animate{ transition: all 2s ease;}
+.section img{ transition: all 3s ease;}
+.section img{
+	opacity:0;
+}
+.animate.fast{ transition: all 1s ease;}
+.section.active img{
+	opacity:1;
+}
+.blur{
+	 -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+#header{
+	background:url('../img/gold-bands.png') 0px -300px	 no-repeat;
+	background-color:#b68f07;
+}
+#header img{
+	width: 110px;
+	margin-top:18.5px;
+	margin-bottom:16px;
+	float:left;
+}
+#header h1{
+	display:inline-block;
+	font-size: 25.72px;
+	margin:0;
+	padding:0;
+	color:#fff;
+	margin-top: 25px;
+	margin-left:10px;
+	line-height: 20px;
+	text-transform:uppercase;
+	font-family:"Times New Roman";
+}
+#header h1>span{
+	font-size: 15.78px;
+}
+#contacts{
+	font-style:italic;
+	font-size:12px;
+	color:#fff;
+	position:absolute;
+	top:0;
+	right:0;
+	margin-top:15px;
+	margin-right:15px;
+}
+
+#top-nav{
+	/* background-color:#f7f7f7; */
+	margin-top: 90px;
+	height: 40px;
+	
+}
+#top-nav a{
+	color: white;
+	font-size: 14px;
+	text-transform:uppercase;
+}
+#top-nav ul li:first-child {
+    border-left: none;
+}
+#top-nav ul li a:hover,#top-nav ul li a:active {
+    text-decoration: none !important;
+    color: #90781c;
+}
+#top-nav ul{
+	display:block;
+	list-style:none;
+	padding:0;
+	margin:0;
+	vertical-align: middle;
+}
+#top-nav ul li{
+	padding: 1px 20px;
+	display:inline-block;
+	text-transform:uppercase;
+	color:#282727;
+	border-left: 1px solid white;
+}
+#top-nav ul li.active{
+	
+	background-color:rgba(144, 120, 28, 0.44);
+}
+#top-nav ul li.active a{
+	color:#ffffff !important;
+}
+ul.slideshow{
+	position:absolute;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul.slideshow li{
+	display:block;
+}
+#social-media{
+	padding-top:50px;
+	padding-bottom:50px;
+}
+#social-media div{
+	margin-bottom: 10px;
+	font-size:14px;
+	text-transform:uppercase;
+}
+#footer-links{
+	background-color:#f7f7f7;
+	text-align:center;
+	padding-top:20px;
+	/* padding-bottom:20px; */
+}
+#footer-links>div{
+	font-size:20px;
+	padding:5px;
+	text-transform:uppercase;
+	font-family:"Times New Roman";
+	padding-bottom: 0px;
+}
+#footer-links>div span{
+	font-size:18px;
+}
+#footer-links p{
+	font-size:11.28px;
+	font-family:"Lucida Handwriting";
+	margin-bottom: 0px;
+}
+#footer-nav ul{
+	display:block;
+	list-style:none;
+	margin:0;
+	padding:0;
+	background-color: #e0dede;
+	padding: 10px;
+}
+#footer-nav ul li{
+	font-size:12px;
+	display:block;
+	text-transform:uppercase;
+	padding:4px;
+}
+#footer-nav ul li a{
+	color:#111010;
+}
+#annotation{
+	background-color:#121212;
+}
+#annotation div{
+	font-size:11.23px;
+	color:white;
+	padding: 0 2rem;
+}
+section{
+	padding-bottom: 60px;
+}
+section.full-banner{
+	width:100%;
+	height:69.69vh;
+	overflow-y:hidden;
+}
+
+section h2,article h2{
+	font-size:30.16px;
+	font-family:"EB Garamond 08";
+	padding-bottom: 12.34px;
+	margin-bottom: 12px;
+	border-bottom:1px solid #cdcdcd;
+	display:inline-block;
+	text-align:center;
+}
+#post-title{
+	margin-bottom:20px;
+}
+article button{
+	margin-top:25px !important;
+}
+article p{
+	font-size:18px;
+	line-height:20px;
+}
+button.btn.btn-primary{
+	text-transform: uppercase;
+    background-color: #343c91;
+    border-color: #1421a7;
+    padding: 12px 27px;
+	margin-top:10px;
+	letter-spacing:2px;
+}
+button.btn.btn-secondary{
+	 background-color: #fff;
+	 border-color: #343c91;
+	color: #343c91;
+	padding: 12px 27px;
+	margin-top:10px;
+	letter-spacing:2px;
+}
+form.form-vertical{
+	margin-top:20px;
+}
+blockquote{
+	font-family:"EB Garamond 08";
+	font-style:italic;
+	font-size:25px;
+}
+div.no-content{
+	min-height:77vh;
+	width:100%;
+	display:table;
+}
+div.no-content>p{
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	font-family:"EB Garamond 08";
+	font-size:20px;
+}
+div.no-content>p>strong{
+	font-size:40px;
+	display:block;
+	color:#c1a22f;
+}
+div.no-content>p a,div.no-content>p a:hover,div.no-content>p a:active{
+	color:#343c91;
+}
+.counter>div{
+	position:relative;
+}
+.counter span{
+	display:block;
+}
+@media (max-width: 768px ) { 
+	#contacts{
+		position:inherit;
+		margin-top:0px;
+		font-size:1.4rem;
+		text-align:center;
+	}
+	#contacts br{display:none;}
+	#header {
+		text-align:center;
+	}
+	#header h1{
+		text-align:center;
+	}
+	#header img{
+		vertical-align:top;
+		margin-top:25px;
+		float:none !important;
+	}
+	#top-nav{
+		margin:0 auto;
+		height: 50px;
+		padding-top: 13px;
+	}
+	#equipments-stats ul.equipments-list li{
+		text-align:center !important;
+	}
+	#equipment-count{
+		margin-bottom:20px;
+	}
+	#equipment-count div{
+		margin-top:10px !important;
+	}
+	section{
+		padding-bottom:20px;
+	}
+	section.full-banner{
+		height:auto;
+	}
+ }
