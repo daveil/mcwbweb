@@ -12,6 +12,33 @@
 		<?php wp_head();?>
 	</head>
 	<body>
+		<header id="header" class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<?php blog_logo(array('class'=>'pull-left')); ?>
+					<h1>M<span>edical</span><br/>
+						C<span>enter</span><br/>
+						W<span>estern</span><br/>
+						B<span>atangas</span>
+					</h1>
+					<div class="clearfix"></div>
+					
+				</div>
+				<div class="col-md-8"> 
+				<div id="contacts" class="pull-right text-right">
+				<b>PH:</b> <?php echo __CONTACT_NO;?> / <b>EM:</b> <?php echo __EMAIL;?><br /> <b>FB:</b> <?php echo __FACEBOOK_ID;?> / <b>IG</b>: <?php echo __INSTAGRAM_ID;?>
+			</div>
+					<nav id="top-nav">
+						<?php
+							$args = array('menu'=>'Header','menu_class'=>'nav navbar-nav');
+							wp_nav_menu($args);
+						  ?>
+					</nav>
+				</div>
+			</div>
+			
+		</header>
+		<?php if(false):?>
 		<div class="container" id="header">
 			<div class="row">
 				<div class="col-md-9" id="brand">
@@ -64,3 +91,4 @@
 			  </div><!-- /.container-fluid -->
 			</nav>
 		</div>
+		<?php endif;?>

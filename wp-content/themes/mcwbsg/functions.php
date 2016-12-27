@@ -5,21 +5,33 @@
 	define('__CONTACT_NO', get_option('contact_number'));
 	define('__EMAIL', get_option('email'));
 	define('__FACEBOOK', 'http://facebook.com/'.get_option('facebook_page_url'));
+	define('__FACEBOOK_ID', get_option('facebook_page_url'));
+	define('__INSTAGRAM', 'http://instagram.com/'.get_option('instagram_page_url'));
+	define('__INSTAGRAM_ID', get_option('instagram_page_url'));
 	define('STYLE_URI',get_stylesheet_uri());
 	define('TMPLT_URI',get_template_directory_uri());
 	
 	function mcwb_resources(){
 		wp_enqueue_style('style',STYLE_URI);
+		wp_register_style( 'home', TMPLT_URI . '/css/home.css');
+		if(is_page('home')){
+			wp_enqueue_style('home');
+		}
+		
 		$scripts = array(
 				'holder.min'=>'/lib/holderjs/holder.min.js',
 				'bootstrap.min'=>'/lib/bootstrap/dist/js/bootstrap.min.js',
+				'jquery.waypoints'=>'/js/jquery.waypoints.min.js',
+				'script'=>'/js/script.js',
 		);
 		$dependcies = array(
 				'holder.min'=>null,
-				'bootstrap.min'=>array('jquery')
+				'bootstrap.min'=>array('jquery'),
+				'jquery.waypoints'=>array('jquery'),
+				'script'=>array('jquery')
 		);
 		foreach($scripts as $script=>$path)
-			wp_enqueue_script($script, TMPLT_URI.$path,$dependcies[$script]);
+			wp_enqueue_script($script, TMPLT_URI.$path,$dependcies[$script],null,true);
 	}
 	function theme_prefix_setup() {
 		add_theme_support( 'custom-logo' ,array(
@@ -88,6 +100,7 @@
 	$contact = new new_general_setting( array('contact_number', 'Contact Number') );
 	$email = new new_general_setting( array('email', 'Email') );
 	$fb = new new_general_setting( array('facebook_page_url', 'Facebook Page URL','http://www.facebook.com/') );
+	$ig = new new_general_setting( array('instagram_page_url', 'Instagram Page URL','http://www.instagram.com/') );
 	function custom_widget_init(){
 		add_theme_support( 'customize-selective-refresh-widgets' );
 		if (function_exists('register_sidebar')) {
@@ -104,6 +117,13 @@
 
 		}
 	}
+	function switch_to_relative_url($html, $id, $caption, $title, $align, $url, $size, $alt){
+		$imageurl = wp_get_attachment_image_src($id, $size);
+		$relativeurl = wp_make_link_relative($imageurl[0]);   
+		$html = str_replace($imageurl[0],$relativeurl,$html);
+		return $html;
+	}
+	add_filter('image_send_to_editor','switch_to_relative_url',10,8);
 	add_action( 'widgets_init', 'custom_widget_init' );
 	add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 	add_action('wp_enqueue_scripts','mcwb_resources');
