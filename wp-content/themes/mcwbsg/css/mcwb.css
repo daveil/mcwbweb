@@ -76,9 +76,10 @@ body{
 #top-nav ul li:first-child {
     border-left: none;
 }
-#top-nav ul li a:hover,#top-nav ul li a:active {
+#top-nav ul li a:hover,#top-nav ul li a:active{
     text-decoration: none !important;
-    color: #90781c;
+    color: #90781c !important;
+	background:none;
 }
 #top-nav ul{
 	display:block;
@@ -100,6 +101,15 @@ body{
 }
 #top-nav ul li.active a{
 	color:#ffffff !important;
+}
+#top-nav ul li.active a:hover{
+	color: #90781c !important;
+}
+#top-nav ul li a{
+	text-align:center
+	width:120px;
+	margin:0;
+	padding:0 10px;
 }
 ul.slideshow{
 	position:absolute;
