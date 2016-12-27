@@ -14,8 +14,12 @@
 	function mcwb_resources(){
 		wp_enqueue_style('style',STYLE_URI);
 		wp_register_style( 'home', TMPLT_URI . '/css/home.css');
+		wp_register_style( 'health-services', TMPLT_URI . '/css/health-services.css');
 		if(is_page('home')){
 			wp_enqueue_style('home');
+		}
+		if(is_page('health-services')){
+			wp_enqueue_style('health-services');
 		}
 		
 		$scripts = array(
@@ -54,10 +58,11 @@
 	function wp_nav_menu_footer($args=array()){
 		$args['echo']=false;
 		$args['container']=false;
-		$args['items_wrap']='<dl id="%1$s" class="%2$s footer-nav pull-right">%3$s</dl>';
+		$args['items_wrap']='<ul id="%1$s" class="%2$s">%3$s</ul>';
 		$args['depth']=0;
 		$menu =wp_nav_menu( $args );
-		echo str_replace('li','dd',$menu);
+		echo $menu;
+		//echo str_replace('li','dd',$menu);
 
 	}
 	
